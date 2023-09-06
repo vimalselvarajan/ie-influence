@@ -582,8 +582,8 @@ nav .desktop-nav li .link {
     border-right: 1px solid #D3D3D3;
 }
 
-footer .ft-img img {
-    height: 10rem;
+footer .ft-img .footer-img {
+    height: 7rem;
 }
 
 footer .ft-abt-cont {
@@ -608,6 +608,7 @@ footer .ft-abt .txt{
 footer .fm-links {
     grid-area: c;
     border-right: 1px solid #D3D3D3;
+    padding-right: 2rem;
 }
 
 footer .fm-links  h1{
@@ -753,6 +754,15 @@ footer .q-links .txt:hover{
     font-weight: 300;
 }
 
+.link-logo-mobile {
+    display: none;
+    margin-right: auto;
+}
+
+.link-logo-mobile img {
+    height: 64px;
+}
+
 @media (max-width: 1440px) {
     footer {
         margin-top: 200px;
@@ -853,8 +863,8 @@ footer .q-links .txt:hover{
     .sign-up-cont {
         gap: 1.5rem;
     }
-    footer .ft-img img {
-        height: 8rem;
+    footer .ft-img .footer-img {
+        height: 6rem;
     }
 
     .about-span-1 {
@@ -863,7 +873,6 @@ footer .q-links .txt:hover{
 }
 
 @media (max-width: 825px) {
-
 
     .nav-container .desktop-nav {
         flex-direction: column;
@@ -1118,6 +1127,14 @@ footer .q-links .txt:hover{
     .insta-cont .boxes a {
         color: inherit;
     }
+
+    .link-logo-mobile {
+        display: block;
+    }
+
+    .link-logo {
+        display: none;
+    }
     
 }
 
@@ -1157,7 +1174,7 @@ footer .q-links .txt:hover{
     }
 
     .img-span-1 img {
-        width: 10rem;
+        width: 100%;
     }
 
     .white-bkr {
@@ -1221,8 +1238,8 @@ footer .q-links .txt:hover{
         border: none;
     }
 
-    footer .ft-img img {
-        height: 7.5rem;
+    footer .ft-img .footer-img {
+        height: 4.0rem;
     }
 
     .contact-form {
